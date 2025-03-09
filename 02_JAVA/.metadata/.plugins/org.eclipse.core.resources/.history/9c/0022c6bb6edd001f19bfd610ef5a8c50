@@ -1,0 +1,39 @@
+package test;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class PropertiesRun {
+
+	public static void main(String[] args) {
+		//Properties
+		
+		/*
+		 * Properties 특징 - MAP 계열 컬렉션(key -value형식으로 저장
+		 * setProperty(key, value)
+		 * getProperty(key) : value
+		 * 
+		 * -주로 외부파일(.properties / .xml)을 사용해서 입출력할 때 보다 편하게 변환해주는 객체
+		 * 
+		 * */
+		//파일로 출력하는 것  코드에서 내보낸다 -> output
+		Properties prop = new Properties();
+		prop.setProperty("C",  "INSERT"); //데이터생성
+		prop.setProperty("R",  "SELECT"); //데이터 읽기
+		prop.setProperty("U",  "UPDATE"); //데이터 수정
+		prop.setProperty("D",  "DELETE"); //데이터 삭제
+		
+		try {
+			prop.store(new FileOutputStream("resources/driver.properties"), "Properties Test");
+			prop.storeToXML(FileOutputStream("resources/query.xml"), "Properties Test")
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+}

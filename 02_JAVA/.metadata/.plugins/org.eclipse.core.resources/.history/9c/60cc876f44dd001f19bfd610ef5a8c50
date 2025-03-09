@@ -1,0 +1,42 @@
+package snippet;
+
+public class Snippet {
+	Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+		The type java.sql.Connection is not accessible
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		Connection cannot be resolved to a type
+		Duplicate local variable conn
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+		Connection cannot be resolved to a type
+		The method getConnection() from the type JDBCTemplate refers to the missing type Connection
+	
+		at JABANewProject/com.als.jdbc.service.InformationService.<init>(InformationService.java:8)
+		at JABANewProject/com.als.jdbc.controller.InformationController.<init>(InformationController.java:14)
+		at JABANewProject/com.als.jdbc.view.InformationMenu.<init>(InformationMenu.java:11)
+		at JABANewProject/com.als.jdbc.run.Run.main(Run.java:9)
+}
+

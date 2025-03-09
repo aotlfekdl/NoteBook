@@ -1,0 +1,9 @@
+private int userNo;
+	private String userId;
+	private String userPwd;
+	private String userName;ssfa
+
+	private String Gender;
+	private String Age;
+	private String Email;
+	private String Phone;

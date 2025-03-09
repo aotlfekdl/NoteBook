@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ex1&apos; to &apos;JavaStudy/src/o.collection.set.ex1&apos;&#x0D;&#x0A;- Original project: &apos;25.01.20.학원.zip_expanded&apos;&#x0D;&#x0A;- Destination element: &apos;JavaStudy/src/o.collection.set.ex1&apos;&#x0D;&#x0A;- Original element: &apos;ex1&apos;" description="Copy folder" destination="=JavaStudy/src&lt;o.collection.set.ex1" element1="JavaStudy/src/o/collection/set/ex1" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1737381788239" units="0" version="1.0"/>
+</session>
